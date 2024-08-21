@@ -1,0 +1,111 @@
+#HTML
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family:myFirstFont,Courier new,verdana,Arial, Helvetica, sans-serif;">
+<div style="background-color:rgb(225, 26, 43);
+padding:15px;
+text-align:center;border:10px groove white;">
+<img src="https://www.sakshi.com/sites/default/files/article_images/2023/02/21/Syed-Abdul-Nazeer.jpg" width="200" height="175" ALIGN="LEFT" alt="GOVERNOR"></img>
+<img src="https://telugubullet.com/wp-content/uploads/2018/02/AP-CM-Chandrababu-Naidu-com.jpg" width="200" height="175" ALIGN="RIGHT" alt="IMAGE OF AP CM"></img><BR></a>
+<h1 ALIGN="CENTER" ><font size="15"  color="#f2f2f2"  face="VERDANA"><B>AP SCHEMES</B></font> </h1>
+<h2 ALIGN="CENTER" ><font size="5"  color="#f2f2f2"  face="verdana"><B>INFORMATION OF PRESENT RUNNING SCHEMES</B></h2>
+</div>
+
+<div style="overflow:auto;line-height:1.7em;">
+ <div class="menu";><font size="3px"><b>
+<a href="https://wdcw.ap.gov.in/">sc welfare</a>
+<a href="https://socialwelfare.apcfss.in/">Child & woman </a>
+<a href="http://www.apdascac.ap.gov.in/">DIFFERENTLY ABLED & SENIOR CITIZENS </a>
+<a href="http://christianminorities.ap.nic.in/">Minorities Finance Corporation</a>
+<a href="http://www.apsmfc.com/">Christian (Minorities) </a>
+
+  </div>
+<img src="https://th.bing.com/th/id/OIP.vyPSi4iaROPu_NJ9P1GV-AHaFQ?rs=1&pid=ImgDetMain" name="iframe_a" width="60%"height="500 ">
+
+
+    <div class="right">
+<b>
+    <a href="https://www.thecurrentindia.com/govt/ap-government-ministers-list-tdp/""> Ministers</a>
+	<a href="https://www.findeasy.in/constituencies-in-andhra-pradesh-legislative-assembly/">M.L.A</a>	
+	<a href="https://en.wikipedia.org/wiki/List_of_Rajya_Sabha_members_from_Andhra_Pradesh">Rajya Sabha</a>
+    <a href="https://en.wikipedia.org/wiki/List_of_members_of_the_17th_Lok_Sabha"	>Lok Sabha</a>
+    <a href="https://studentinfo.ap.gov.in/ ">Education </a></b>
+  </div>
+</div>
+
+</body>
+</html>
+
+#CSS
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+  border:10px groove rgb(191, 152, 152);
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+ 
+  .menu a {
+    background-color:rgb(79, 185, 150);
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:rgb(55, 35, 35);
+    list-style-type:none;
+    text-decoration:none;
+
+  }
+  
+  a:link{
+  text-decoration:none;
+  }
+
+  
+
+  .menu a:nth-child(even){background-color:#e4c4c4;}
+  .menu a:hover {background-color: rgb(194, 182, 182);}
+  
+  .main {
+  border:10px groove white;
+    float:left;
+    width:60%;
+    padding:0 20px;
+  }
+  
+  .right {
+  border:10px groove white;
+    float:right;
+    width:20%;
+    text-align:center;
+    line-height:2.3em;
+  }
+  .right a {
+    background-color:#ddd;
+    color:black;
+    padding:15px;
+    margin-top:7px;
+    display:block;               
+    width:100%;
+    color:black;
+     list-style-type:none;
+    text-decoration:none;
+  }
+  .right a:nth-child(even){background-color:rgb(37, 141, 176);}
+  .right a:hover {background-color:rgb(117, 34, 233);}
+  
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+    }
+  }
